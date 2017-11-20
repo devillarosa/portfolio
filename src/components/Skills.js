@@ -4,36 +4,49 @@ import React from 'react';
 const Skills = ({props}) => {
   
   const programmingLanguages = props[0].techstack.map((skill) => {
-    return (
-      <li>
-        <label for="skill">
-        <meter value={skill.proficiency} min="0" max="10"></meter>
-        </label>
-          <div class="text-center" id="skill">{skill.name}</div>
-      </li>
-    )
+      
+    if (skill.proficiency < 4){
+      return (<li key={skill.name}><span className="label label-default">{skill.name}</span></li>)
+
+    }
+    else if (skill.proficiency < 7 ){
+      return (<li key={skill.name}><span className="label label-warning">{skill.name}</span></li>)
+    }
+    else{
+      return (<li key={skill.name}><span className="label label-success">{skill.name}</span></li>)
+    }
+            
   });
   
   const webDevelopmentList = props[1].techstack.map((skill) => {
-    return (
-      <li>
-        <label for="skill">
-        <meter value={skill.proficiency} min="0" max="10"></meter>
-        </label>
-          <div class="text-center" id="skill">{skill.name}</div>
-      </li>
-    )
+      
+    if (skill.proficiency < 4){
+      return (<li key={skill.name}><span className="label label-default">{skill.name}</span></li>)
+
+    }
+    else if (skill.proficiency < 7 ){
+      return (<li key={skill.name}><span className="label label-warning">{skill.name}</span></li>)
+    }
+    else{
+      return (<li key={skill.name}><span className="label label-success">{skill.name}</span></li>)
+    }
+      
+            
   });
   
   const toolsList = props[2].techstack.map((skill) => {
-    return (
-      <li>
-        <label for="skill">
-        <meter value={skill.proficiency} min="0" max="10"></meter>
-        </label>
-          <div class="text-center" id="skill">{skill.name}</div>
-      </li>
-    )
+      
+    if (skill.proficiency < 4){
+      return (<li key={skill.name}><span className="label label-default">{skill.name}</span></li>)
+
+    }
+    else if (skill.proficiency < 7 ){
+      return (<li key={skill.name}><span className="label label-warning">{skill.name}</span></li>)
+    }
+    else{
+      return (<li key={skill.name}><span className="label label-success">{skill.name}</span></li>)
+    }
+            
   });
     
   return (

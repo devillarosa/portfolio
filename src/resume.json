@@ -6,7 +6,7 @@
         "email": "DevinVillarosa92.business@gmail.com",
         "phone": "949-533-3955",
         "website": "http://DevinVillarosa.com",
-        "notes": "This site was created using React and Create-React-App. Please view my github if you wish to reference or copy this template",
+        "notes": "This site was created using React and Create-React-App. Visit and follow my github if you wish to reference or copy this template",
         "location": {
             "address": "Osborne Ave",
             "postalCode": "95050",
@@ -27,10 +27,10 @@
             }
         ]
     },
-    "about": "Software engineer with 3 years of experience. Has a taste in all sorts of software development flavors. From embedded systems, fullstack web development, tools, infrastructure, automation, and testing. Currently exploring AWS and serverless applications with automation. I would like to help current students move their systems to the cloud to manifest their ideas to the public.",
+    "about": "Software engineer with 3 years of experience. Has a taste in variety of software development flavors. From embedded systems, fullstack web development, tools, infrastructure, automation, and testing. Currently exploring AWS and serverless applications with automation. I would like to help current students move their systems to the cloud to manifest their ideas to the public.",
     "work": [
         {
-            "company": "IAG",
+            "company": "Northrop Grumman",
             "position": "Lead Front End Developer",
             "website": "http://nrma.com.au",
             "startDate": "2016-08-01",
@@ -188,5 +188,34 @@
             "keywords": []
         }
     ],
-    "references": []
+    "references": [],
+    "projects": [
+      {
+        "name": "Serverless Dropbox",
+        "url": "http://www.devi.ninja",
+        "description": "Leverages AWS S3, Route53, Cloudfront, Lambda, API Gateway, and DynamoDB to download class notes materials all together"
+      },
+      {
+        "name": "Weight-Lifting WebApp",
+        "url": "TBD",
+        "description":"Utilizies Djano Rest Framework API calls to keep track of user's lifts and workouts history. Fast deployment with AWS Elastic Beanstalk" 
+      },
+      {
+        "name": "Self-driving RC car",
+        "url": "http://www.socialledge.com/sjsu/index.php?title=F14:_Self_Driving_Undergrad_Team",
+        "description": "Self-driving RC car composed of 6 microcontrollers, communicating with each other using CAN bus. Composed of a 10 person team. In charge of I/O submodule"
+      },
+      {
+        "name": "NFC Locker",
+        "url": "http://www.socialledge.com/sjsu/index.php?title=S14:_Hyperintelligent_NFC_Locker_of_the_Future",
+        "description": "Simple locker using locking mechanism activated by NFC Phone application"
+      },
+      {
+        "name": "Self-balancing Quadcopter",
+        "url": "http://www.socialledge.com/sjsu/index.php?title=S14:_Divine_WINd",
+        "description": "Self-balancing quadcopter utilizng simple Kalman filtering from IMU device"
+      }
+
+    
+    ]
 }

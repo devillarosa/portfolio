@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Info from './components/Info.js'
 import About from './components/About.js'
 import Skills from './components/Skills.js'
+import Projects from './components/Projects.js'
 
 class App extends Component {
   constructor(props){
@@ -13,7 +13,8 @@ class App extends Component {
     this.state = {
       info: props.resume.info,
       about: props.resume.about,
-      skills: props.resume.skills
+      skills: props.resume.skills,
+      projects: props.resume.projects
     };
   }
     
@@ -27,7 +28,7 @@ class App extends Component {
             <div className="col-sm-8">
               <About props={this.state.about} />
               <Skills props={this.state.skills} />
-              PROJECTS
+              <Projects props={this.state.projects} />
               WORK EXPERIENCE
               EDUCATION
             </div>
