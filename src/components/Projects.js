@@ -13,8 +13,7 @@ const Projects = ({props}) => {
   
     return (
       <div className="projects text-left">
-        <h3><i className="fa fa-sm fa-cog"></i>Projects</h3>
-        <hr />
+        <h3><i id="projects" className="fa fa-sm fa-cog"></i>Projects</h3>
           <ul className="list-unstyled">
             {projectList}
           </ul>

@@ -27,7 +27,7 @@
             }
         ]
     },
-    "about": "Software engineer with 3 years of experience. Has a taste in variety of software development flavors. From embedded systems, fullstack web development, tools, infrastructure, automation, and testing. Currently exploring AWS and serverless applications with automation. I would like to help current students move their systems to the cloud to manifest their ideas to the public.",
+    "about": "3 year software engineer with a taste in various software flavors. From embedded systems, fullstack web development, tools, infrastructure, automation, and testing. Currently exploring AWS and serverless applications with automation. I would like to help current students move their systems to the cloud to manifest their ideas to the public.",
     "work": [
         {
             "company": "Nothrop Grumman",
@@ -80,7 +80,7 @@
         {
             "institution": "San Jose State University",
             "area": "Computer Engineering",
-            "studyType": "Bachelor",
+            "studyType": "Bachelor of Science",
             "startDate": "Aug 2010",
             "endDate": "May 2015",
             "gpa": "3.63",
@@ -154,7 +154,7 @@
         "description":"Utilizies Djano Rest Framework API calls to keep track of user's lifts and workouts history. Fast deployment with AWS Elastic Beanstalk" 
       },
       {
-        "name": "Self-driving RC car",
+        "name": "Self-driving RC Car",
         "url": "http://www.socialledge.com/sjsu/index.php?title=F14:_Self_Driving_Undergrad_Team",
         "description": "Self-driving RC car composed of 6 microcontrollers, communicating with each other using CAN bus. Composed of a 10 person team. In charge of I/O submodule"
       },

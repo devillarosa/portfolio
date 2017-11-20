@@ -1,43 +1,83 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
-
+    background-color: #3f51b5;
 }
+
 .App {
-  padding-top: 18px;
 }
 
 .fa {
-  padding: 10px;
+    padding-right : 10px;
+}
+.page-container{
+    background-color: #E8EAF6;
+    border: 10px ridge #304ffe;
+    max-width: 1600px;
+}
+.contact{
+    overflow: hidden; 
 }
 
+.details{
+    overflow-y: scroll;
+    height: 1050px; 
+}
 
 /* INFO */
 
 .info {
-  border: 10px;
+    border: 10px;
 }
 
+.img-circle{
+    padding-top: 10px;
+    width: 325px;
+    height: 325px;
+}
 
-
-
-
+.profileImg{
+}
 /* ABOUT  */
-
-
-
+.about{
+    background-color: #e8eaf6;
+}
 
 
 /* SKILLS  */
+.skills{
+    background-color: #c5cae9;
+    padding: 10px;
+
+}
 .programmingLanguage{
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .webDevelopment{
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .tools{
-  font-size: 18px;
+    font-size: 18px;
+}
+
+/* PROJECTS  */
+.projects{
+    padding: 10px;
+    background-color: #e8eaf6;
+
+}
+
+
+/* WORK  */
+.work{
+    padding: 10px;
+    background-color: #c5cae9;
+
+}
+
+/* WORK  */
+.education{
+    padding: 10px;
+    background-color: #e8eaf6;
 }

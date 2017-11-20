@@ -50,9 +50,8 @@ const Skills = ({props}) => {
   });
     
   return (
-    <div className="about text-left">
-      <h3><i className="fa fa-sm fa-stack-overflow"></i>Skills</h3>
-      <hr />
+    <div className="skills text-left">
+      <h3><i id="skills" className="fa fa-sm fa-stack-overflow"></i>Skills</h3>
       
         <h4><i className="fa fa-sm fa-code"></i>{props[0].Category}</h4>
           <ul className="programmingLanguage list-inline text-left">
