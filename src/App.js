@@ -5,6 +5,7 @@ import Info from './components/Info.js'
 import About from './components/About.js'
 import Skills from './components/Skills.js'
 import Projects from './components/Projects.js'
+import Work from './components/Work.js'
 
 class App extends Component {
   constructor(props){
@@ -14,7 +15,8 @@ class App extends Component {
       info: props.resume.info,
       about: props.resume.about,
       skills: props.resume.skills,
-      projects: props.resume.projects
+      projects: props.resume.projects,
+      work: props.resume.work
     };
   }
     
@@ -29,7 +31,7 @@ class App extends Component {
               <About props={this.state.about} />
               <Skills props={this.state.skills} />
               <Projects props={this.state.projects} />
-              WORK EXPERIENCE
+              <Work props={this.state.projects} />
               EDUCATION
             </div>
         </div>
