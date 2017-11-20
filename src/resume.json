@@ -1,32 +1,33 @@
 {
     "info": {
         "name": "Devin Villarosa",
-        "label": "Software Engineer",
+        "title": "Software Engineer",
         "picture": "./profilePhoto.jpg",
         "email": "DevinVillarosa92.business@gmail.com",
         "phone": "949-533-3955",
         "website": "http://DevinVillarosa.com",
-        "summary": "Over the past 16 years I have continuously challenged myself with new languages, frameworks and methodologies. My core languages have always been html, css & javascript but I have also worked as a full stack php developer building both bespoke CMS solutions and small business applications. My current role at IAG is Front End Lead for a small React team and have been developing with React and Redux for the past 2 years.",
+        "notes": "This site was created using React and Create-React-App. Please view my github if you wish to reference or copy this template",
         "location": {
             "address": "Osborne Ave",
             "postalCode": "95050",
             "city": "Santa Clara",
             "countryCode": "USA",
-            "region": "Bay Area"
+            "region": "SF Bay Area"
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "jonbloomer",
-                "url": ""
+                "network": "Github",
+                "username": "devillarosa",
+                "url": "https://github.com/devillarosa"
             },
             {
-                "network": "Github",
-                "username": "freaksauce",
-                "url": ""
+                "network": "Linkedin",
+                "username": "devinvillarosa",
+                "url": "https://www.linkedin.com/in/devinvillarosa/"
             }
         ]
     },
+    "about": "Software engineer with 3 years of experience. Has a taste in all sorts of software development flavors. From embedded systems, fullstack web development, tools, infrastructure, automation, and testing. Currently exploring AWS and serverless applications with automation. I would like to help current students move their systems to the cloud to manifest their ideas to the public.",
     "work": [
         {
             "company": "IAG",
@@ -135,32 +136,43 @@
     "publications": [],
     "skills": [
         {
-            "name": "Front End Development",
-            "level": "Master",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript",
-                "ES2015",
-                "jQuery",
-                "Typescript",
-                "Meteor",
-                "React",
-                "Handlebars",
-                "SASS",
-                "LESS",
-                "Gulp",
-                "Grunt",
-                "Babel",
-                "Bootstrap",
-                "Semantic UI",
-                "Material css",
-                "Node",
-                "php",
-                "MySQL",
-                "Git",
-                "Jira",
-                "Responsive"
+            "Category": "Programming Languages",
+            "techstack": [
+                {"name":"C", "proficiency":"7"},
+                {"name":"C++", "proficiency":"9"},
+                {"name":"Python", "proficiency":"8"},
+                {"name":"Javascript", "proficiency":"6"}
+            ]
+        },
+        {
+            "Category": "Web Development",
+            "techstack": [
+                {"name":"HTML", "proficiency":"7"},
+                {"name":"CSS", "proficiency":"7"},
+                {"name":"Bootstrap", "proficiency":"8"},
+                {"name":"JQuery", "proficiency":"5"},
+                {"name":"React", "proficiency":"6"},
+                {"name":"SQL", "proficiency":"7"},
+                {"name":"NoSQL", "proficiency":"5"},
+                {"name":"API", "proficiency":"7"},
+                {"name":"Rest", "proficiency":"7"},
+                {"name":"Django", "proficiency":"7" }
+            ]
+        },
+        {
+            "Category": "Tools, Infrastructure, and Automation",
+            "techstack": [
+                {"name":"Make", "proficiency":"8"},
+                {"name":"ANT", "proficiency":"6"},
+                {"name":"Git", "proficiency":"10"},
+                {"name":"Ansible", "proficiency":"7"},
+                {"name":"xUnit", "proficiency":"8"},
+                {"name":"TDD", "proficiency":"9"},
+                {"name":"CI/CD", "proficiency":"9"},
+                {"name":"Docker", "proficiency":"5"},
+                {"name":"Jenkins", "proficiency":"8"},
+                {"name":"Atlassian", "proficiency":"8"},
+                {"name":"AWS", "proficiency":"7"}
             ]
         }
     ],
