@@ -31,7 +31,7 @@ class App extends Component {
               <About props={this.state.about} />
               <Skills props={this.state.skills} />
               <Projects props={this.state.projects} />
-              <Work props={this.state.projects} />
+              <Work props={this.state.work} />
               EDUCATION
             </div>
         </div>
